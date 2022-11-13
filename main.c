@@ -22,6 +22,6 @@ int main(void) {
     int result = palindrom_check(input_buffer, len);
 
     printf("%s\r\n", result == 0 ? "YES" : "NO");
- 
+
     return 0;
 }
