@@ -54,12 +54,12 @@ void test_palindrome_null_ptr(void) {
 }
 
 TEST_LIST = {
-	{"test_palindrome_1", test_palindrome_1},
+    {"test_palindrome_1", test_palindrome_1},
     {"test_palindrome_2", test_palindrome_2},
     {"test_palindrome_3", test_palindrome_3},
     {"test_palindrome_4", test_palindrome_4},
-	{"test_not_palindrome", test_not_palindrome},
-	{"test_palindrome_null_ptr", test_palindrome_null_ptr},
+    {"test_not_palindrome", test_not_palindrome},
+    {"test_palindrome_null_ptr", test_palindrome_null_ptr},
 
-	{0} /* must be terminated with 0 */
+    {0} /* must be terminated with 0 */
 };
